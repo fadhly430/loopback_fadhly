@@ -1,0 +1,28 @@
+
+{
+    "name": "project",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "options": {
+      "validateUpsert": true
+    },
+    "properties": {
+      "nama_project": {
+        "type": "string",
+        "required": true
+      },
+      "tanggal_project": {
+        "type": "date"
+      },
+      "targe_project": {
+        "type": "string",
+        "required": true
+      }
+      
+    },
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {}
+  }
+  

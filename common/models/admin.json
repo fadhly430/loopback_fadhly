@@ -1,0 +1,29 @@
+{
+    "name": "admin",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "options": {
+      "validateUpsert": true
+    },
+    "properties": {
+      "username": {
+        "type": "string",
+        "required": true
+      },
+      "password": {
+        "type": "string"
+      },
+      "level": {
+        "type": "string",
+        "required": true
+      },
+      "nama_admin": {
+        "type": "string"
+      }
+    },
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {}
+  }
+  

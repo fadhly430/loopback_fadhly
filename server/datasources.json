@@ -1,0 +1,14 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+
+  "mongodb" : {
+    "database" :"data_users",
+    "name" :"mongodb",
+    "connector" : "mongodb",
+    "extended_operators": true,
+    "allowExtandedOperators" : true
+  }
+}
